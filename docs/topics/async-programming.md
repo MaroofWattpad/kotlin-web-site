@@ -120,7 +120,7 @@ In addition, Rx does introduce a somewhat nicer approach to error handling.
 Kotlin's approach to working with asynchronous code is using coroutines, which is the idea of suspendable computations, i.e. the idea that a function can suspend its execution at some point and resume later on. 
 
 One of the benefits however of coroutines is that when it comes to the developer, writing non-blocking code is essentially the same as writing blocking code. The programming model
-in itself doesn't really change. 
+in itself does not really change. 
 
 Take for instance the following code:
 
